@@ -1,0 +1,54 @@
+/* Quill Editor Custom Styles */
+.ql-container {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 0 0 8px 8px;
+}
+
+.ql-toolbar {
+    border-radius: 8px 8px 0 0;
+    background-color: #f8f9fa;
+    border-color: #dee2e6;
+}
+
+.ql-editor {
+    min-height: 200px;
+    background-color: white;
+}
+
+.ql-editor img {
+    max-width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.ql-editor table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ql-editor table td,
+.ql-editor table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.ql-editor pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Modal with Quill */
+.modal-body .ql-container {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* Small editors for options */
+#option-a-editor .ql-editor,
+#option-b-editor .ql-editor,
+#option-c-editor .ql-editor,
+#option-d-editor .ql-editor {
+    min-height: 100px;
+}

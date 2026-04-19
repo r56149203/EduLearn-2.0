@@ -1,26 +1,30 @@
 <?php
-// Site configuration
-define('SITE_NAME', 'EduPlatform');
-define('SITE_URL', 'http://localhost/edulearn/');
-define('SITE_EMAIL', 'noreply@eduplatform.com');
+// Site Configuration
+define('SITE_NAME', 'EduLearn');
+define('SITE_URL', 'http://localhost/EduLearn/');  // Change this to your actual URL
+define('SITE_EMAIL', 'noreply@edulearn.com');
 
-// Pagination settings
+// Pagination Settings
 define('ITEMS_PER_PAGE', 10);
 define('COURSES_PER_PAGE', 6);
 define('QUIZZES_PER_PAGE', 6);
 
-// Quiz settings
+// Quiz Settings
 define('DEFAULT_QUIZ_DURATION', 30);
 define('PASSING_SCORE', 70);
 
-// Upload settings
+// Upload Settings
 define('MAX_FILE_SIZE', 5242880); // 5MB
 define('ALLOWED_EXTENSIONS', ['jpg', 'jpeg', 'png', 'gif', 'webp']);
 
-// Time settings
+// Token Expiry (in hours)
 define('TOKEN_EXPIRY_HOURS', 24);
 define('RESET_TOKEN_EXPIRY_MINUTES', 60);
 
-// Session timeout (30 minutes)
+// Session Timeout (30 minutes)
 define('SESSION_TIMEOUT', 1800);
+
+// Default Admin Credentials (change after first login)
+define('DEFAULT_ADMIN_EMAIL', 'admin@example.com');
+define('DEFAULT_ADMIN_PASSWORD', 'admin123');
 ?>

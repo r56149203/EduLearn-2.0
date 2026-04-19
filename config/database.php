@@ -1,5 +1,5 @@
 <?php
-// Database configuration
+// Database Configuration
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'edulearn');
 define('DB_USER', 'root');
